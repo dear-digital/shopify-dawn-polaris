@@ -1,0 +1,100 @@
+theme:
+  - changed-files:
+    - any-glob-to-any-file:
+      - "layout/**/*"
+      - "templates/**/*"
+      - "sections/**/*"
+      - "snippets/**/*"
+
+assets:
+  - changed-files:
+    - any-glob-to-any-file: "assets/**/*"
+
+locales:
+  - changed-files:
+    - any-glob-to-any-file: "locales/**/*"
+
+config:
+  - changed-files:
+    - any-glob-to-any-file: 
+      - "config/**/*"
+      - "config/settings_data.json"
+      - "config/settings_schema.json"
+
+styles:
+  - changed-files:
+    - any-glob-to-any-file:
+      - "**/*.css"
+      - "src/tailwind.css"
+      - "tailwind.config.js"
+
+scripts:
+  - changed-files:
+    - any-glob-to-any-file:
+      - "**/*.js"
+      - "assets/global.js"
+
+liquid:
+  - changed-files:
+    - any-glob-to-any-file: "**/*.liquid"
+
+documentation:
+  - changed-files:
+    - any-glob-to-any-file:
+      - "**/*.md"
+      - "LICENSE"
+      - "README.md"
+      - "CODE_OF_CONDUCT.md"
+      - "CONTRIBUTING.md"
+      - "SECURITY.md"
+      - "release-notes.md"
+      - "rewards.md"
+      - "documentation/**/*"
+
+ci:
+  - changed-files:
+    - any-glob-to-any-file: ".github/**/*"
+
+package:
+  - changed-files:
+    - any-glob-to-any-file:
+      - "package.json"
+      - "package-lock.json"
+
+ignore-files:
+  - changed-files:
+    - any-glob-to-any-file:
+      - ".gitignore"
+      - ".shopifyignore"
+
+templates:
+  - changed-files:
+    - any-glob-to-any-file: "templates/**/*.json"
+
+customers:
+  - changed-files:
+    - any-glob-to-any-file: "templates/customers/**/*"
+
+sections:
+  - changed-files:
+    - any-glob-to-any-file: "sections/**/*"
+
+snippets:
+  - changed-files:
+    - any-glob-to-any-file: "snippets/**/*"
+
+icons:
+  - changed-files:
+    - any-glob-to-any-file: "snippets/icon-*.liquid"
+
+extras:
+  - changed-files:
+    - any-glob-to-any-file: "extras/**/*"
+
+python:
+  - changed-files:
+    - any-glob-to-any-file: "**/*.py"
+
+json:
+  - changed-files:
+    - any-glob-to-any-file: "**/*.json"
